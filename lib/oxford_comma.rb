@@ -1,3 +1,5 @@
+require 'pry'
+
 def more_than_three(array)
   count = 0
   oxford_comma_string = ""
