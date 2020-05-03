@@ -21,7 +21,6 @@ def oxford_comma(array)
     "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
     more_than_three(array)
-    binding.pry
     "#{more_than_three(array)} and #{array[-1]}"
   end
 end
