@@ -10,6 +10,6 @@ def oxford_comma(array)
     oxford_comma = Array.new
     while count < (array.size - 1)
       oxford_comma == oxford_comma + array[count] + ","
-    end
+    end    
   end
 end
