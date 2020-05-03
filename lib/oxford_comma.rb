@@ -6,11 +6,11 @@ def oxford_comma(array)
   elsif array.size == 3
     "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
-    count = 0
+    count = -1
     oxford_comma = ""
     while count < (array.size - 1)
-      oxford_comma == oxford_comma + array[count] + ","
       count += 1
+      oxford_comma == oxford_comma + array[count] + ","
     end
     oxford_comma
   end
