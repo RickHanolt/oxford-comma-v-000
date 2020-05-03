@@ -12,6 +12,5 @@ def oxford_comma(array)
       count += 1
       oxford_comma == oxford_comma + array[count] + ","
     end
-    oxford_comma
   end
 end
