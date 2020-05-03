@@ -6,6 +6,7 @@ def more_than_three(array)
   while count < (array.size - 1)
     oxford_comma_string = oxford_comma_string + array[count] + ","
     count += 1
+    oxford_comma_string
   end
 end
 
